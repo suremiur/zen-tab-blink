@@ -1,8 +1,8 @@
 {
   "id": "zen-smooth-tab-blink",
   "name": "Zen Smooth Tab Blink",
-  "description": "Элегантная вспышка при открытии вкладок. Настраивается в меню Sine.",
-  "author": "You",
+  "description": "Visual blink when opening a tab.",
+  "author": "suremiur",
   "version": "1.0",
   "scripts": {
     "zen_tab_blink.uc.js": {
