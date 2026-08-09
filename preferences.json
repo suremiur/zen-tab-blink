@@ -1,0 +1,53 @@
+[
+  {
+    "type": "text",
+    "label": "**Настройки анимации новой вкладки**",
+    "size": "16px",
+    "margin": "0 0 10px 0"
+  },
+  {
+    "type": "dropdown",
+    "value": "number",
+    "property": "uc.zen.blink.target",
+    "label": "Где воспроизводить вспышку?",
+    "defaultValue": 0,
+    "placeholder": false,
+    "options": [
+      {
+        "label": "Новая вкладка",
+        "value": 0
+      },
+      {
+        "label": "Вся панель вкладок",
+        "value": 1
+      },
+      {
+        "label": "Весь экран",
+        "value": 2
+      },
+      {
+        "label": "Адресная строка",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "type": "separator",
+    "label": "Внешний вид",
+    "margin": "15px 0 15px 0"
+  },
+  {
+    "type": "string",
+    "value": "string",
+    "property": "uc.zen.blink.color",
+    "label": "Цвет (Например: #ffffff или #0096FF)",
+    "defaultValue": "#ffffff"
+  },
+  {
+    "type": "string",
+    "value": "string",
+    "property": "uc.zen.blink.opacity",
+    "label": "Яркость вспышки (число от 0.1 до 1.0)",
+    "defaultValue": "0.15"
+  }
+]

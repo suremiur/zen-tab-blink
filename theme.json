@@ -1,0 +1,19 @@
+{
+  "id": "zen-smooth-tab-blink",
+  "name": "Zen Smooth Tab Blink",
+  "description": "Элегантная вспышка при открытии вкладок. Настраивается в меню Sine.",
+  "author": "You",
+  "version": "1.0",
+  "scripts": {
+    "zen_tab_blink.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ]
+    }
+  },
+  "style": {
+    "chrome": "userChrome.css"
+  },
+  "preferences": "preferences.json",
+  "tags": ["sine", "JavaScript", "CSS"]
+}
